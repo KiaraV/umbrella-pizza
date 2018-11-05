@@ -1,0 +1,108 @@
+p {
+    font-size:  15px;
+    line-height: 21px;
+}
+
+.btn {
+    transition: all 300ms ease-in-out;
+}
+
+.btn:hover {
+    background-color: #FF0000;
+    color: white !important;
+    border: 1px solid #2F1F17 !important;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Pattaya', sans-serif;
+}
+
+ul, li {
+    list-style: none;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    transition: all 500ms ease-in-out; 
+}
+
+a:hover{
+    text-decoration: underline !important;
+}
+
+a:visited {
+    color: #00FF00 !important;
+}
+
+h1, 
+h2, 
+h4 {
+    font-family: 'PT Sans Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+/* NAVBAR styles */
+.navbar {
+    background-color: #F89F73;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.navbar a {
+    color: #443B37 !important;
+}
+
+.navbar a:hover {
+    color: #FF0000 !important;
+    text-decoration: none !important;
+}
+
+/* HEADER styles */
+.header {
+    height: 800px;
+    margin-top: 50px;
+    width: 100%;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+    background-color: #FADB8E;
+    /*background-image: url("http://www.newyorkontech.org/uploads/2/1/5/5/21559136/rafael-gonzaque_orig.png");*/
+    color: #FCFCFC;
+}
+
+.header img {
+    height: 250px;
+    width: 350px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.header h1 {
+    color: #000000;
+}
+
+.header .btn {
+    margin-top: 20px;
+    border-radius: 0; 
+}
+
+/* SERVICES Styles */
+.services {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.services h2, .services h4 {
+    color: #DC623B;
+    font-size: 25px;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+}
+
+.services p {
+    color: #632511;
+    padding-bottom: 40px;
+}
